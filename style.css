@@ -5,18 +5,19 @@
 }
 .wrapper {
   display: flex;
-  background-color: blue;
   justify-content: space-between;
   padding: 1rem;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 .card {
-  background-color: red;
-  width: 300px;
+  width: 20%;
   padding: 0.5rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 4px;
 }
 .card-image img {
   width: 100%;
@@ -24,4 +25,7 @@
 .card button {
   width: 100%;
   padding: 0.5rem;
+  background-color: orange;
+  border: none;
+  border-radius: 4px;
 }
